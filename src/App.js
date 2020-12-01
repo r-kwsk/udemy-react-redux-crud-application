@@ -1,13 +1,8 @@
-
+import React, {Component} from 'react';//これ必要なの？
 
 function App() {
-  return (
-    <div>
-        <p>
-          hello, world!a
-        </p>
-    </div>
-  );
+  let message = 'hello world';
+  return <div>{message}</div>;
 }
 
 export default App;
