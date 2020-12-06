@@ -1,0 +1,3 @@
+[submodule "app2"]
+	path = app2
+	url = git@github.com:gipcompany/udemy-react-redux-crud-application.git
