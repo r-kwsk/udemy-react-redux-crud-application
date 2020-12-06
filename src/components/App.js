@@ -17,6 +17,8 @@ class App extends Component {
   }
 }
 
+// 引数のstateにおける，state.count.valueを値，キーをvalueとするオブジェクトを返す．
+// https://www.udemy.com/course/react-application-development/learn/lecture/9915130#questions/5870696
 const mapStateToProps = state => ({ value: state.count.value })
 
 // const mapDispatchToProps = dispatch => ({
